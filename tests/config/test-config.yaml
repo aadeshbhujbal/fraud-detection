@@ -1,0 +1,14 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  test_topic: "test-transactions"
+
+spark:
+  master: "local[2]"
+  app_name: "fraud-detection-test"
+
+delta:
+  test_table_path: "/tmp/delta-test"
+
+elasticsearch:
+  host: "localhost"
+  port: 9200 
